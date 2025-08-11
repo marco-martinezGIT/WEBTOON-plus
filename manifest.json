@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "WEBTOON™+",
+  "version": "1.0",
+  "description": "Adds QOL features for WEBTOON reading. Including auto and manual scroll features, arrow key support, and a night reading mode.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.webtoons.com/*"],
+      "js": ["tesseract.min.js", "content.js"]
+    }
+  ]
+}   
