@@ -307,7 +307,8 @@ async function runOCRAllImages() {
       const { data: { text } } = await Tesseract.recognize(
         img.src,
         'eng',
-        { logger: m => console.log('[Tesseract]', m) }
+        { workerPath: chrome.runtime.getURL('worker.min.js'),
+          logger: m => console.log('[Tesseract]', m) }
       );
       const wordCount = text.trim().split(/\s+/).filter(Boolean).length;
       const charCount = text.trim().length;

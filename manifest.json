@@ -8,5 +8,11 @@
       "matches": ["https://www.webtoons.com/*"],
       "js": ["tesseract.min.js", "content.js"]
     }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["worker.min.js"],
+      "matches": ["<all_urls>"]
+    }
   ]
-}   
+}
