@@ -18,4 +18,6 @@ Reduce eye strain and read comfortably in low-light environments with a one-clic
 
 Whether you're binge-reading a series or just catching up on new episodes, WEBTOON™+ makes it easier, smoother, and more accessible than ever.
 
-!!! WAITING FOR APPROVAL ON GOOGLE CHROME STORE !!!
+[Google Chrome Web Store](https://chromewebstore.google.com/detail/webtoon+/oeeomadncihcmddnbphkgleeemimjabi?authuser=0&hl=en)
+
+! Currently has a bug where small scroll speeds are not registered and freeze auto scrolling !
